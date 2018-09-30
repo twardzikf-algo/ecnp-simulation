@@ -1,4 +1,6 @@
 # Extended Contract Net Protocol Simulation in Python
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+[![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://opensource.org/licenses/MIT)
 
 ## ECNP
 
@@ -26,8 +28,6 @@ My python implementation of the protocol consists of following classes: *Agent*,
 - *Simulation* main class that takes a  dictionary as a simulation setup and basing on it creates initiators, agents, tasks and carries out the simulation. Additionally it saves all changes to the state of simulation to a pdf file resulting in a runtime protocol.
 
 Runtime protocols are saved as pdf files in /protocols. Images of the grids are saved as pnf files in /img.
-
-**Licensed under [MIT License](https://opensource.org/licenses/MIT).**
 
 **Libraries used: [matplotlib](https://github.com/matplotlib/matplotlib), [networkx](https://github.com/networkx), [prettytable](https://github.com/vishvananda/prettytable), [pdfrw](https://github.com/pmaupin/pdfrw), [fpdf](https://github.com/reingart/pyfpdf)**
 
