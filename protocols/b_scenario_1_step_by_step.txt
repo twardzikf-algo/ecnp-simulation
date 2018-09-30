@@ -1,0 +1,50 @@
+------------------------- step nr 0 begins -------------------------
+Initiator nr 0 created for  Task nr 0 at the time 0 to (3, 0) with following participants:  [0, 1]
+Initiator nr 1 created for  Task nr 1 at the time 0 to (3, 4) with following participants:  [0, 1]
+    Agent nr 0 cap 2 speed 1 pos (0, 0) prefs [2, 0, 1] tasks queue [] states  {0: 'CFP', 1: 'CFP'}
+    Agent nr 1 cap 2 speed 1 pos (0, 4) prefs [2, 0, 1] tasks queue [] states  {0: 'CFP', 1: 'CFP'}
+------------------------- step nr 0 ends   -------------------------
+------------------------ step nr 0 summary -------------------------
+     Initiator nr 0 task 0 agents [0, 1] offers {0: 4, 1: 10}
+     Initiator nr 1 task 1 agents [0, 1] offers {0: 10, 1: 16}
+
+    Agent nr 0 cap 2 speed 1 pos (0, 0) prefs [2, 0, 1] tasks queue [0, 1] states  {0: 'PRE_BID', 1: 'PRE_BID'}
+    Agent nr 1 cap 2 speed 1 pos (0, 4) prefs [2, 0, 1] tasks queue [0, 1] states  {0: 'PRE_BID', 1: 'PRE_BID'}
+------------------------- step nr 1 begins -------------------------
+Initiator nr 2 created for  Task nr 2 at the time 1 to (2, 2) with following participants:  [0, 1]
+    Agent nr 0 cap 2 speed 1 pos (0, 0) prefs [2, 0, 1] tasks queue [0, 1] states  {0: 'PRE_ACC', 1: 'PRE_ACC', 2: 'CFP'}
+    Agent nr 1 cap 2 speed 1 pos (0, 4) prefs [2, 0, 1] tasks queue [0, 1] states  {0: 'PRE_REJ', 1: 'PRE_REJ', 2: 'CFP'}
+------------------------- step nr 1 ends   -------------------------
+------------------------ step nr 1 summary -------------------------
+     Initiator nr 0 task 0 agents [0, 1] offers {0: 4, 1: 10}
+     Initiator nr 1 task 1 agents [0, 1] offers {0: 10, 1: 10}
+     Initiator nr 2 task 2 agents [0, 1] offers {0: 5, 1: 5}
+
+    Agent nr 0 cap 2 speed 1 pos (0, 0) prefs [2, 0, 1] tasks queue [2, 0, 1] states  {0: 'DEF_BID', 1: 'DEF_BID', 2: 'PRE_BID'}
+    Agent nr 1 cap 2 speed 1 pos (0, 4) prefs [2, 0, 1] tasks queue [2, 1] states  {0: 'DEF_REJ', 1: 'PRE_BID', 2: 'PRE_BID'}
+------------------------- step nr 2 begins -------------------------
+    Agent nr 0 cap 2 speed 1 pos (0, 0) prefs [2, 0, 1] tasks queue [2, 0, 1] states  {0: 'DEF_ACC', 1: 'DEF_ACC', 2: 'PRE_ACC'}
+    Agent nr 1 cap 2 speed 1 pos (0, 4) prefs [2, 0, 1] tasks queue [2, 1] states  {0: 'DEF_REJ', 1: 'PRE_REJ', 2: 'PRE_REJ'}
+------------------------- step nr 2 ends   -------------------------
+------------------------ step nr 2 summary -------------------------
+     Initiator nr 0 task 0 agents [0, 1] offers {0: 4, 1: 10}
+     Initiator nr 1 task 1 agents [0, 1] offers {0: 10, 1: 4}
+     Initiator nr 2 task 2 agents [0, 1] offers {0: 5, 1: 5}
+
+    Agent nr 0 cap 2 speed 1 pos (0, 0) prefs [2, 0, 1] tasks queue [2, 0, 1] states  {0: 'CONTRACTOR', 1: 'CONTRACTOR', 2: 'DEF_BID'}
+    Agent nr 1 cap 2 speed 1 pos (0, 4) prefs [2, 0, 1] tasks queue [2, 1] states  {0: 'DEF_REJ', 1: 'PRE_BID', 2: 'DEF_REJ'}
+------------------------- step nr 3 begins -------------------------
+    Agent nr 0 cap 2 speed 1 pos (0, 0) prefs [2, 0, 1] tasks queue [2, 0, 1] states  {0: 'CONTRACTOR', 1: 'CONTRACTOR', 2: 'DEF_ACC'}
+    Agent nr 1 cap 2 speed 1 pos (0, 4) prefs [2, 0, 1] tasks queue [2, 1] states  {0: 'DEF_REJ', 1: 'PRE_BID', 2: 'DEF_REJ'}
+------------------------- step nr 3 ends   -------------------------
+------------------------ step nr 3 summary -------------------------
+     Initiator nr 0 task 0 agents [0, 1] offers {0: 4, 1: 10}
+     Initiator nr 1 task 1 agents [0, 1] offers {0: 10, 1: 4}
+     Initiator nr 2 task 2 agents [0, 1] offers {0: 5, 1: 5}
+
+    Agent nr 0 cap 2 speed 1 pos (0, 0) prefs [2, 0, 1] tasks queue [2, 0, 1] states  {0: 'CONTRACTOR', 1: 'CONTRACTOR', 2: 'CONTRACTOR'}
+    Agent nr 1 cap 2 speed 1 pos (0, 4) prefs [2, 0, 1] tasks queue [1] states  {0: 'DEF_REJ', 1: 'PRE_BID', 2: 'DEF_REJ'}
+----------------------------  final summary   ----------------------------
+Task nr, 0  contracted to: Agent nr 0
+Task nr, 1  contracted to: Agent nr 0
+Task nr, 2  contracted to: Agent nr 0 
