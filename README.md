@@ -17,7 +17,7 @@ Simulation setup is realised in experiments.py file which contains apropriate me
 
 ## Implementation
 
-My python implementation of the protocol consists of following classes: *Agent*, *Initiator8, *Task*, *World* and *Simulation*.
+My python implementation of the protocol consists of following classes: *Agent*, *Initiator*, *Task*, *World* and *Simulation*.
 
 - *World*: used to generate a static grid world as a model for Agents to calculate routes as well as  visual represenation image for the pdf runtime raport.
 - *Task*: pure entity class representing a single task and its attributes. 
