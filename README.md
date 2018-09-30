@@ -1,7 +1,7 @@
 # Extended Contract Net Protocol Simulation in Python
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://opensource.org/licenses/MIT)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://github.com/twardzikf/python-ecnp-simulation/graphs/commit-activity)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://github.com/twardzikf/ecnp-simulation/graphs/commit-activity)
 
 ## ECNP
 
